@@ -1,6 +1,10 @@
 " F5 to refresh config file
-nmap <F5> :source ~/.config/nvim/init.vim<CR>
-vmap <F5> :source ~/.config/nvim/init.vim<CR>
+nmap <F5> :source ~/.config/nvim/general/keys.vim<CR>
+vmap <F5> :source ~/.config/nvim/general/keys.vim<CR>
+
+" leader + e to go to config file
+nmap <leader>e :e ~/.config/nvim/init.vim<CR>
+vmap <leader>e :e ~/.config/nvim/init.vim<CR>
 
 " Disable the arroy key to navigate
 noremap <up> <nop>
@@ -17,6 +21,8 @@ nnoremap <silent> <down> :resize -5<CR>
 " With leader key + w you save the file
 nnoremap <leader>w :w<CR>
 vnoremap <leader>w :w<CR>
+nnoremap <leader>wq :wq<CR>
+vnoremap <leader>wq :wq<CR>
 
 " Move to the next buffer
 " Move to the prevoius buffer
@@ -31,7 +37,7 @@ nnoremap <leader>t :tabe<CR>
 " vertical split
 " horizontal split
 nnoremap <leader>vs :vsp<CR>
-nnoremap <leader>sp :sp<CR>
+nnoremap <leader>hs :sp<CR>
 
 " clear search results
 nnoremap <silent> // :noh<CR>
