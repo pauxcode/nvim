@@ -1,7 +1,7 @@
 call plug#begin()
 
 Plug 'preservim/nerdcommenter'
-Plug 'neoclide/coc.nvim'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Resalta sintaxis js
 Plug 'yuezk/vim-js'
