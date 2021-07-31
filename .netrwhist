@@ -1,12 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
-let g:netrw_dirhist_1='/home/dazailux/Proyects/School/SAES/pages'
-let g:netrw_dirhist_0='/home/dazailux/Proyects/School/Sistemas/CuidaT/CuidaT/src/routes'
-let g:netrw_dirhist_9='/home/dazailux/Proyects/School/Sistemas/CuidaT/CuidaT/src/containers'
-let g:netrw_dirhist_8='/home/dazailux/Proyects/School/Sistemas/CuidaT/CuidaT/src/routes'
-let g:netrw_dirhist_7='/home/dazailux/Proyects/School/Sistemas/CuidaT/CuidaT/src/containers'
-let g:netrw_dirhist_6='/home/dazailux/Proyects/School/Sistemas/CuidaT/CuidaT/src/routes'
-let g:netrw_dirhist_5='/home/dazailux/Proyects/School/Sistemas/CuidaT/CuidaT/src'
-let g:netrw_dirhist_4='/home/dazailux/Proyects/School/Desarrollo Web/desarrollo/SACA/saca-frontend/src/components/Header'
-let g:netrw_dirhist_3='/home/dazailux/Proyects/School/Desarrollo Web/desarrollo/SACA/saca-frontend/src/components'
-let g:netrw_dirhist_2='/home/dazailux/Proyects/School/Desarrollo Web/desarrollo/SACA/saca-frontend/src/components/Header'
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/dazailux/.config/nvim'
+let g:netrw_dirhist_2='/home/dazailux/.config'
+let g:netrw_dirhist_1='/home/dazailux'
